@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://example.com/example-framework.js"crossorigin="anonymous"></script> 
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="ortiola.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contract">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Collage IT Student</p>
+            <h1>Hi, I'm <span>Jhon</span><br>rey From Philippines</h1>
+        </div>  
+    </div>
+
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="jo.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Johnrey ortiola, an experienced IT student with a strong foundation in managing and supporting diverse technology systems. I specialize in ensuring optimal performance, security, and reliability across hardware, software, and network platforms. With hands-on expertise in system maintenance, technical support, and IT infrastructure, I am committed to delivering scalable, efficient, and user-centered solutions that align with both technical requirements and organizational goals..</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</U></span><br>Design Web/App interfaces</li>
+                        <li><span>Web Development</U></span><br>Web App Development</li>
+                        <li><span>App Development</U></span><br>Building Android/iOS apps</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Exploring Operating Systems</U></span><br>Windows, Linux, process management</li>
+                        <li><span>Studying Databases</U></span><br>SQL, database design, normalization</li>
+                        <li><span>Database Management</U></span><br>Gained experience in designing, managing, and querying relational databases using MySQL and PostgreSQL.</li>
+                    </ul>
+                   </div>
+                    <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Bachelor of Science in Information Technology</U></span><br>From Global Reciprocal Collages</li>
+                        <li><span>Relevant Coursework</U></span><br>Database Management,  Web Development, And Software Engineering</li>
+                        <li><span>Core Subjects</U></span><br>Programming (Python, Java, C++)</li>
+                    </ul>
+                   </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-------------service--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>True growth comes from embracing challenges and continuously learninTg. Every experience, no matter how small, contributes to the pursuit of wisdom and personal excellence.</p>
+                <a href="#"> Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Growth often comes through challenges, and those who strive for excellence embrace learning. No effort is ever too small when the goal is mastery.</p>
+                <a href="#"> Learn more </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Pain is a part of the journey, embraced by those dedicated to learning. No step is too small when guided by a desire for growth and wisdom</p>
+                <a href="#"> Learn more </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="jj.jpg">
+                <div class="layer">
+                    <h3>Creating A Website</h3>
+                    <p>Creating a website has been one of my most valuable experiences, providing essential skills for my development as a web developer.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tl.jpg">
+                <div class="layer">
+                    <h3>HTML</h3>
+                    <p>As an IT student, learning HTML (HyperText Markup Language) marked the start of my web development journey and deepened my understanding of how the internet functions.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="lt.jpg">    
+                <div class="layer">
+                    <h3>Java Script</Script></h3>
+                    <p>JavaScript is a programming language that enables interactivity, logic, and dynamic content on websites. Unlike HTML (which defines structure) and CSS (which handles styling), JavaScript brings websites to life.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-  square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>ortiolajhonrey1@gmail.com</p>
+                <p>09518073272</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn">Download Cv</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function openmenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
